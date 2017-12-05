@@ -1,0 +1,22 @@
+{
+  "name": "dev-db",
+  "version": "1.0.0",
+  "description": "Docker container w CouchDB for development",
+  "main": "index.js",
+  "scripts": {
+    "kill": "docker-compose kill -s SIGINT",
+    "test": "echo test",
+    "start": "docker-compose up",
+    "nuke": "docker-compose rm --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asibilla/dev-db.git"
+  },
+  "author": "Andy Sibilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asibilla/dev-db/issues"
+  },
+  "homepage": "https://github.com/asibilla/dev-db#readme"
+}
